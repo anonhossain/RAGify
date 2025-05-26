@@ -67,13 +67,22 @@ EMBED_MODEL_NAME = "Select Embed Model" (llama-text-embed-v2 has been used)
 ##📡 API Output
 
 Below are sample outputs returned by various API endpoints.
+API List:
+![APi List](https://github.com/anonhossain/RAGify/blob/main/screenshot/API%20List.PNG)
+
 
 - `/upload_document` → `{"message": "Document uploaded successfully"}`
--  ![APi List](https://github.com/anonhossain/RAGify/blob/main/screenshot/API%20List.PNG)
-- `/embed_pdf` → `{"status": "Embedding completed"}`
-- `/embed_website` → `{"status": "Website embedded successfully"}`
-- `/chat` → `{"response": "Here is the answer to your question..."}`
+![Upload Document](https://github.com/anonhossain/RAGify/blob/main/screenshot/Submit%20pdf.PNG)
 
+- `/embed_pdf` → `{"status": "Embedding completed"}`
+![Embed PDF](https://github.com/anonhossain/RAGify/blob/main/screenshot/Embed%20pdf%20and%20upload%20to%20Pinecone.PNG)
+![Update in Pinecone](https://github.com/anonhossain/RAGify/blob/main/screenshot/update%20in%20Pinecone.PNG)
+
+- `/embed_website` → `{"status": "Website embedded successfully"}`
+![Embed PDF](https://github.com/anonhossain/RAGify/blob/main/screenshot/web_embed.PNG)
+![Embed in pinecone] (https://github.com/anonhossain/RAGify/blob/main/screenshot/update%20web%20pinecone.PNG)
+- `/chat` → `{"response": "Here is the answer to your question..."}`
+![[chat response](https://github.com/anonhossain/RAGify/blob/main/screenshot/chat.PNG)]
 
 
 
