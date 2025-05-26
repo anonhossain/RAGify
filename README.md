@@ -55,9 +55,21 @@ INDEX_NAME = "Your_Index_Name"
 PDF_FILE = "./document/"
 PDF_PATH = "document/document.pdf"
 
-DIMENSION = Select a dimentsion 768 Has been used for this
+DIMENSION = Select a dimentsion 768 Has been used here
 METRIC = "Your_Matric" (Cosine has been used)
 CLOUD = "cloud_name" (aws has been used)
 REGION = "Select Region" (us-east-1 has been used)
 EMBED_MODEL_NAME = "Select Embed Model" (llama-text-embed-v2 has been used)
 ```
+
+---
+
+##📡 API Output
+
+Below are sample outputs returned by various API endpoints.
+
+- `/upload_document` → `{"message": "Document uploaded successfully"}`
+- `/embed_pdf` → `{"status": "Embedding completed"}`
+- `/embed_website` → `{"status": "Website embedded successfully"}`
+- `/chat` → `{"response": "Here is the answer to your question..."}`
+
