@@ -69,9 +69,13 @@ EMBED_MODEL_NAME = "Select Embed Model" (llama-text-embed-v2 has been used)
 Below are sample outputs returned by various API endpoints.
 
 - `/upload_document` → `{"message": "Document uploaded successfully"}`
+-  ![APi List](https://github.com/anonhossain/RAGify/blob/main/screenshot/API%20List.PNG)
 - `/embed_pdf` → `{"status": "Embedding completed"}`
 - `/embed_website` → `{"status": "Website embedded successfully"}`
 - `/chat` → `{"response": "Here is the answer to your question..."}`
 
- ![APi List](https://github.com/anonhossain/RAGify/blob/main/screenshot/API%20List.PNG)
+
+
+
+ 
  
