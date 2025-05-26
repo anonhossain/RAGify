@@ -80,11 +80,6 @@ API List:
 
 - `/embed_website` → `{"status": "Website embedded successfully"}`
 ![Embed PDF](https://github.com/anonhossain/RAGify/blob/main/screenshot/web_embed.PNG)
-![Embed in pinecone] (https://github.com/anonhossain/RAGify/blob/main/screenshot/update%20web%20pinecone.PNG)
+![Embed in pinecone](https://github.com/anonhossain/RAGify/blob/main/screenshot/update%20web%20pinecone.PNG)
 - `/chat` → `{"response": "Here is the answer to your question..."}`
-![[chat response](https://github.com/anonhossain/RAGify/blob/main/screenshot/chat.PNG)]
-
-
-
- 
- 
+![chat response](https://github.com/anonhossain/RAGify/blob/main/screenshot/chat.PNG)
