@@ -24,3 +24,40 @@ RAGIFY is a smart, modular Retrieval-Augmented Generation (RAG) system that allo
 | `/embed_pdf`       | POST   | Embed uploaded PDF content into vector DB        |
 | `/embed_website`   | POST   | Submit a website URL for scraping and embedding  |
 | `/chat`            | POST   | Ask questions after document/website embedding   |
+
+---
+
+## 🔧 Installation
+
+Follow the steps below to install and run RAGIFY on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/anonhossain/RAGIFY.git
+cd RAGIFY
+```
+
+### 2. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### 3.  Make .env file and add the Credentials 
+
+```bash
+PINECONE_API_KEY = "Your_API_Key"
+
+GOOGLE_API_KEY = "Your_API_Key"
+MODEL = "Preferred model,  here gemini-1.5-flash has been used"
+
+INDEX_NAME = "Your_Index_Name"
+PDF_FILE = "./document/"
+PDF_PATH = "document/document.pdf"
+
+DIMENSION = Select a dimentsion 768 Has been used for this
+METRIC = "Your_Matric" (Cosine has been used)
+CLOUD = "cloud_name" (aws has been used)
+REGION = "Select Region" (us-east-1 has been used)
+EMBED_MODEL_NAME = "Select Embed Model" (llama-text-embed-v2 has been used)
+```
