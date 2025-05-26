@@ -73,3 +73,5 @@ Below are sample outputs returned by various API endpoints.
 - `/embed_website` → `{"status": "Website embedded successfully"}`
 - `/chat` → `{"response": "Here is the answer to your question..."}`
 
+ ![APi List](https://github.com/anonhossain/RAGify/blob/main/screenshot/API%20List.PNG)
+ 
