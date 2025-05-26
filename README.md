@@ -15,6 +15,34 @@ RAGIFY is a smart, modular Retrieval-Augmented Generation (RAG) system that allo
 
 ---
 
+## ⚙️ Design Choices
+
+RAGIFY is built with a focus on modularity, speed, and state-of-the-art AI capabilities. Below are the key components and the rationale behind choosing each:
+
+### 🧠 Large Language Model (LLM)
+- **Model**: `Gemini 1.5 Flash` (via Google Generative AI)
+- **Why**: Offers fast, accurate, and cost-effective generation with excellent context understanding and reasoning capabilities, ideal for real-time Q&A systems.
+
+### 🔎 Embedding Model
+- **Model**: `LLaMA Text Embedding v2`
+- **Why**: This embedding model provides rich and dense vector representations of text, making it highly suitable for semantic similarity and retrieval in RAG systems.
+
+### 🗃️ Vector Database
+- **Database**: `Pinecone`
+- **Why**: Pinecone is optimized for fast, scalable vector search. It supports dynamic indexing, high availability, and real-time querying, making it an excellent choice for storing and retrieving embedded text data.
+
+### 🚀 Backend Framework
+- **Framework**: `FastAPI`
+- **Why**: Enables high-performance, asynchronous APIs with automatic documentation (via Swagger UI). It's lightweight, fast, and well-suited for ML inference APIs.
+
+### 🌐 Input Sources
+- **Document Upload**: PDF files via upload
+- **Web Embedding**: Scrapes text content from a given website URL
+
+Each component was chosen to balance performance, scalability, and developer ease-of-use. Together, they make RAGIFY a powerful Retrieval-Augmented Generation system for intelligent document understanding and Q&A.
+
+---
+
 ## 📬 API Endpoints
 
 | Endpoint           | Method | Description                                      |
